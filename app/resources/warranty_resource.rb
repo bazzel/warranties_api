@@ -1,3 +1,3 @@
 class WarrantyResource < JSONAPI::Resource
-  attributes :name
+  attributes :name, :expires_on
 end
